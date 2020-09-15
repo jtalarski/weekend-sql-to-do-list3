@@ -1,0 +1,49 @@
+body {
+    background-image: url("./paper.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f3f3e1;
+    font-family: fantasy;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+th {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+/*tbody {
+    background-color: white;
+}
+*/
+
+.isComplete {
+    text-decoration: line-through;
+    background-color: dimgray;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#tableMove {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.class:checked {
+    background-color: gray;
+}
